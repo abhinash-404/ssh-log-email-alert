@@ -26,7 +26,7 @@ This Python script monitors SSH login failures in real-time using `journalctl`. 
 
 1. Clone this repository or download the script:
 
-	git clone https://github.com/abhinash-404/ssh-log-monitor.git
+	git clone https://github.com/abhinash-404/ssh-log-email-alert.git
 	cd ssh-log-monitor
 
 2. (Optional) Create a virtual environment and activate it:
@@ -42,9 +42,9 @@ EMAIL_ALERTS = True    # Enable/disable email alerts
 
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-EMAIL_SENDER = "your_email@gmail.com"
+EMAIL_SENDER = "your_email@gmail.com" #change this
 EMAIL_PASSWORD = "your_app_password"  # Use Gmail App Passwords, not regular password
-EMAIL_RECEIVER = "receiver_email@gmail.com"
+EMAIL_RECEIVER = "receiver_email@gmail.com" #change this
 
 --> Important: Use Gmail App Passwords for EMAIL_PASSWORD if you have 2FA enabled on your Google account.
 
