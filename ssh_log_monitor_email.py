@@ -11,9 +11,9 @@ TIME_WINDOW = 60  # seconds
 EMAIL_ALERTS = True
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-EMAIL_SENDER = "abinash.yad4v@gmail.com"
-EMAIL_PASSWORD = "dsyy asho ddyw niyj"  # Use an app-specific password
-EMAIL_RECEIVER = "abinash.yad4v@gmail.com"
+EMAIL_SENDER = "abinash.demo-mail@gmail.com" #change this
+EMAIL_PASSWORD = "abcd efgh iklm nopq"  # Use an app-specific password, change this
+EMAIL_RECEIVER = "abinash.demo-mail@gmail.com" #change this
 
 # --- Failed login pattern ---
 FAIL_PATTERN = re.compile(r"Failed password for(?: invalid user)? (\w+) from ([\d.:]+)")
