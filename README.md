@@ -34,7 +34,7 @@ This Python script monitors SSH login failures in real-time using `journalctl`. 
 	python3 -m venv venv
 	source venv/bin/activate
 
-##Configuration
+## Configuration
 
 THRESHOLD = 3          # Number of failed attempts to trigger alert
 TIME_WINDOW = 60       # Time window in seconds
@@ -48,12 +48,12 @@ EMAIL_RECEIVER = "receiver_email@gmail.com" #change this
 
 --> Important: Use Gmail App Passwords for EMAIL_PASSWORD if you have 2FA enabled on your Google account.
 
-##Usage
+## Usage
 
 Run the script with:
 	python3 ssh_log_monitor_email.py
 
-##Notes
+## Notes
 
 The script uses journalctl -fu ssh to follow SSH logs, so you need appropriate permissions to run it (usually run as root or with sudo).
 
@@ -61,7 +61,7 @@ Ensure your firewall or email provider does not block SMTP connections.
 
 This is a simple prototype for learning and demonstration purposes. For production, consider additional features like logging, configuration files, IP blocking, etc.
 
-##Author
+## Author
 
 Abinash Yadav
 
